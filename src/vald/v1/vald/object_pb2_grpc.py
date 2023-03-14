@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from vald.v1.payload import payload_pb2 as vald_dot_v1_dot_payload_dot_payload__pb2
+from .payload import payload_pb2 as vald_dot_v1_dot_payload_dot_payload__pb2
 
 
 class ObjectStub(object):
